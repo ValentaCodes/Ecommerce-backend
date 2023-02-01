@@ -4,7 +4,7 @@
 <img src="https://img.shields.io/badge/License-MIT-blue" />
 </a>
 
-## *Table of Contents*
+## _Table of Contents_
 
 - [Description](#description)
 - [Tools](#tools)
@@ -19,54 +19,68 @@
 
 ## **Description**
 
-  update
+A back-end database/api program that allows a store owner to create, add, delete, and update categories, products, tags, and product tags.
 
 ## **Tools**
 
-  Express, Sequelize, MySQL, JavaScript, dotenv
+Express, Sequelize, MySQL, JavaScript, dotenv
 
 ## **Motivation**
 
-  E-Commerce platforms like shopify provide an abundant amount of services to businesses of all sizes. Due to the prevelance of E-Commerce, learning how the fundamental architecture of these platforms will alllow me to stregthen my skills as a full-stack developer.
+E-Commerce platforms like shopify provide an abundant amount of services to businesses of all sizes. Due to the prevelance of E-Commerce, learning how the fundamental architecture of these platforms will alllow me to stregthen my skills as a full-stack developer.
 
 ## **Installation**
-  
-  N/A
+
+### Before being able to run this app. You must enter add your credentials to the .env file
+
+- download zip file or clone repo
 
 ## **Usage**
 
-  N/A
+- navigate to respective folder > Develop
+
+- ```en
+  npm i
+  ```
+
+- run schema in MySQL
+
+- ```en
+  npm run seed
+  ```
+
+- ```en
+  node server.js
+  ```
 
 ## **Contribution**
 
-  N/A
-  
+N/A
+
 ## **Testing**
 
-  N/A
+N/A
 
 ## **Screenshots**
 
-  Add your screenshots here:
-
-  ![ALT TEXT](URL)
+![ALT TEXT](./Assets/Screen%20Shot%202023-02-01%20at%2010.08.08%20AM.png)
+![ALT TEXT](./Assets/Screen%20Shot%202023-02-01%20at%2010.08.16%20AM.png)
+![ALT TEXT](./Assets/Screen%20Shot%202023-02-01%20at%2010.08.24%20AM.png)
+![ALT TEXT](./Assets/Screen%20Shot%202023-02-01%20at%2010.08.31%20AM.png)
 
 ## **Links**
-  
-  Add any relevant links for this project below:
 
-  [Your Website](URL)
+[Your Website](URL)
 
 ## License
 
-  This project is licensed under the terms of the MIT license.
+This project is licensed under the terms of the MIT license.
 
-  Detailed information about this license can be found here: [License Info](https://choosealicense.com/licenses/mit)
+Detailed information about this license can be found here: [License Info](https://choosealicense.com/licenses/mit)
 
 ## Questions
 
-  Any question about this project contact me here:
+Any question about this project contact me here:
 
 - [Github](https://github.com/valentacodes)
 - <valentacodes@gmail.com>
-  
