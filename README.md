@@ -28,7 +28,7 @@ A back-end database/api program that allows a store owner to create, add, delete
 
 ## **Tools**
 
-Express, Sequelize, MySQL, JavaScript, dotenv
+Express, Sequelize, MySQL, JavaScript, dotenv, Postman
 
 ## **Motivation**
 
@@ -75,7 +75,7 @@ N/A
 
 ## **Links**
 
-[Your Website](URL)
+N/A
 
 ## License
 
