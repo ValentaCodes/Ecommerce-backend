@@ -4,6 +4,11 @@
 <img src="https://img.shields.io/badge/License-MIT-blue" />
 </a>
 
+
+## Example use
+
+https://user-images.githubusercontent.com/92850947/216189746-78608194-6b8c-4ff4-9824-aa3e67e9f5c8.mp4
+
 ## _Table of Contents_
 
 - [Description](#description)
@@ -23,7 +28,7 @@ A back-end database/api program that allows a store owner to create, add, delete
 
 ## **Tools**
 
-Express, Sequelize, MySQL, JavaScript, dotenv
+Express, Sequelize, MySQL, JavaScript, dotenv, Postman
 
 ## **Motivation**
 
@@ -70,7 +75,7 @@ N/A
 
 ## **Links**
 
-[Your Website](URL)
+N/A
 
 ## License
 
