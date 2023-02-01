@@ -37,17 +37,13 @@ router.post('/', async (req, res) => {
 });
 
 // This will allow you to update a category name in our database based on a given id
-router.put('/:id', (req, res) => {
+router.put('/:id', async (req, res) => {
   try {
-    const categoryData = Category.update(req.body, {
+    const categoryData = await Category.update(req.body, {
       where: {
         id: req.params.id,
       },
     });
-    if (!categoryData[0]) {
-      res.status(400).json({ message: 'No category with that id was found' });
-      return;
-    }
     res.status(200).json(categoryData);
   } catch (error) {
     res.status(500).json(error);
@@ -55,9 +51,11 @@ router.put('/:id', (req, res) => {
 });
 
 // This will allow you to delete a category from database by its `id` value
-router.delete('/:id', (req, res) => {
+router.delete('/:id', async (req, res) => {
   try {
-    const categoryData = Category.destroy({ where: { id: req.params.id } });
+    const categoryData = await Category.destroy({
+      where: { id: req.params.id },
+    });
     if (!categoryData) {
       res.status(400).json({ message: 'No category with that ID' });
     }
